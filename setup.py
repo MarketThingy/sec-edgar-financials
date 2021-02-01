@@ -7,11 +7,11 @@ here = os.path.abspath(os.path.dirname(__file__))
 requires = [
     'pandas==0.23.4',
     'requests==2.25.1',
-    'bs4>==0.0.1',
+    'bs4==0.0.1',
 ]
 
 test_requirements = [
-    'pytest>=4.0.1'
+    'pytest==4.0.1'
 ]
 
 
