@@ -49,15 +49,3 @@ setup(
         '': ['*.csv']
     }
 )
-
-from setuptools import setup, find_packages
-setup(
-    ...
-    packages=find_packages("src"),  # include all packages under src
-    package_dir={"": "src"},   # tell distutils packages are under src
-
-    include_package_data=True,    # include everything in source control
-
-    # ...but exclude README.txt from all packages
-    exclude_package_data={"": ["README.txt"]},
-)
